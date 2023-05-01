@@ -1,7 +1,5 @@
 import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
 
-document.write("<h2>Hello World!</h2><p>Have a nice day!</p>");
-
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
