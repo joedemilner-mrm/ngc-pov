@@ -1,6 +1,6 @@
 import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
 
-document.write('<meta name="viewport" content="width=device-width, initial-scale=1">');
+document.write('<meta name="lviewport" content="width=device-width, initial-scale=1">');
 
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
