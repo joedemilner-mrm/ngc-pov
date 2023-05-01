@@ -5,3 +5,7 @@ node_modules/*
 
 helix-importer-ui
 .DS_Store
+
+# Eclipse Core
+.project
+.settings/*
