@@ -15,7 +15,7 @@ export default function decorate(block) {
 	    for (const item of data.data) {
 			
 			var para = document.createElement("p");
-	  		para.innerHTML = '<b>key</b>: ' + item.Key + '</br> value: ' + item.Value + '</br> description: ' + item.Description + '<hr>';
+	  		para.innerHTML = '<b>key</b>: ' + item.Key + '<br> <b>value</b>: ' + item.Value + '<br> <b>description</b>: ' + item.Description + '<hr>';
 	  		iDiv.append(para);
 			console.log('ddjjd: ' + item.Key);
 		}
